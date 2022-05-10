@@ -1,0 +1,42 @@
+body{
+  font-family: Ariel, sans-serif;
+  color: white;
+  background-color: red;
+}
+header{
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+h1{
+  color: white;
+  font-size: 80px;
+  font-family: "Benton Sans Extra Comp Black", sans-serif;
+}
+h4{
+  color: white;
+}
+ol a{
+  color: white;
+  text-decoration: none;
+}
+#a{
+  display: inline-block;
+  padding: 12px;
+}
+div{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+img{
+  float: right;
+}

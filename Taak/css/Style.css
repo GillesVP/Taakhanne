@@ -1,0 +1,131 @@
+[class*="col-"]{
+  width: 100%
+}
+@media only screen and (min-width: 768px) {
+  [class*="col-"]{
+    float: left;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+body{
+  font-family: Ariel, sans-serif;
+}
+header{
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+h1{
+  color: white;
+  font-size: 80px;
+  font-family: "Benton Sans Extra Comp Black", sans-serif;
+}
+h4{
+  color: red;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  padding: 12px;
+}
+#intro{
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+#welkom{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+div{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+button{
+  width: 150px;
+  height: 30px;
+  color: red;
+  background-color: white;
+  border-color: red;
+  border-radius: 12px;
+  border-style: solid;
+}
+button:hover{
+  color: white;
+  background-color: red;
+  border-color: white;
+}
+.een{
+  width: 150px;
+  height: 150px;
+  color: red;
+  background-color: white;
+  border-color: red;
+  border-radius: 12px;
+  border-style: solid;
+  margin: 10px;
+  text-align: center;
+}
+ol a{
+  list-style-image: url();
+  color: red;
+  text-decoration: none;
+}
+#redteam{
+  color: red;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+input[type="text"], [type="tel"], [type="email"], [type="submit"]{
+  width: 450px;
+  height: 25px;
+  display: block;
+  margin-bottom: 10px;
+  color: red;
+  background-color: white;
+  border-color: red;
+  border-radius: 12px;
+  border-style: solid;
+}
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+#contact{
+  background-color: red;
+}
+.maps{
+  color: white;
+}
+#waar{
+  color: white;
+}
+ul #onder{
+  color: white;
+  display: flex;
+}
